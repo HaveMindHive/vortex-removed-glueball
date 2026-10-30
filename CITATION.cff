@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this data or code, please cite it as below."
-title: "The scalar glueball on center-vortex-removed SU(2) lattice ensembles: a data note"
+title: "The 0++ and 2++ glueball channels on center-vortex-removed SU(2) lattice ensembles: a data note"
 authors:
   - family-names: "Rayn-McLean"
     given-names: "Turaq"
-version: "1.1"
+version: "1.2"
 date-released: "2026-10-30"
 license: CC-BY-4.0   # data and text; code/ is MIT (code/LICENSE)
 type: dataset
+abstract: "Short hep-lat data note with data and code. Zero-momentum 0++ and 2++ glueball correlators and the static potential are measured on SU(2) Wilson-action ensembles at beta 2.3, 2.35, 2.4 and 2.5 on original, center-projected and vortex-removed (de Forcrand-D'Elia) links in direct maximal center gauge. Removing the center vortices leaves a nonzero 0++ decay rate at beta 2.35, 2.4 and 2.5, but its ratio to the original glueball mass is not robust in these data: with the best of 8 gauge copies at beta 2.4 the vortex-removed mass rises from 0.653(42) to 0.836(78) (paired, 2.3 sigma), with the best of 16 at beta 2.5 it also rises by 2.3 sigma, and the pre-registered ratio is 0.61(4) at beta 2.35 (10^4) against 0.78(3) at beta 2.4 (12^4), 3.4 sigma apart. The pre-registered outcome of the fourth series is 'fraction not robust'; the ratio depends on gauge fixing and coupling here and is not quoted as a property of the vortex-removed theory. What survives: the vortex-removed string tension is zero within errors at the largest distances resolved at beta 2.4 and 2.5 (not at intermediate distances); the single-copy vortex-removed mass at beta 2.4 is volume independent between 12^4 and 16^4 (ratio 0.98(4)); the vortex-removed 2++ level lies 3.1 sigma above the free two-gluon box level and falls to 0.83(5) of the original 2++ while the 0++ falls to 0.70(3), so the vortex-removed spectrum is not a scaled copy of the original one. Excited 0++ levels are upper bounds only. Small lattices, SU(2) only, no continuum statement. Data CC BY 4.0; code in code/ MIT."
 keywords:
   - lattice gauge theory
   - SU(2)

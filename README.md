@@ -1,15 +1,17 @@
-# The scalar glueball on center-vortex-removed SU(2) lattice ensembles: a data note
+# The 0++ and 2++ glueball channels on center-vortex-removed SU(2) lattice ensembles: a data note
 
-Author: Turaq Rayn-McLean. Draft, revised after referee review, not submitted. License: text and data CC BY 4.0 (see
+Author: Turaq Rayn-McLean. Version 1.2: draft, revised after referee review and a fourth data series, not submitted. License: text and data CC BY 4.0 (see
 LICENSE); code in `code/` MIT (see code/LICENSE).
 
-`paper.md` / `paper.pdf`: a short hep-lat note. It measures the 0++ glueball correlator and the static potential on SU(2)
-Wilson-action ensembles at beta 2.3, 2.4, 2.5, on the original links (ORIG), the center-projected Z2 links in direct
-maximal center gauge (CP), and the vortex-removed links (VR, de Forcrand-D'Elia). The cleanest point in the data set is
-beta 2.4 (VR mass volume independent, 2.40(8) sqrt(sigma) in the own unit, 2.52(8) in the literature unit, one gauge copy;
-string tension zero with the short-time estimator and at the largest distances, not at intermediate distances); at beta 2.5
-the pre-registered string-tension premise check fails with a short-time estimator and a best-of-16 gauge-copy study does not
-remove it; the pre-registered combined outcome is inconclusive. Limitations are listed first in the paper.
+`paper.md` / `paper.pdf`: a short hep-lat note. It measures the 0++ and 2++ glueball correlators and the static
+potential on SU(2) Wilson-action ensembles at beta 2.3, 2.35, 2.4, 2.5, on the original links (ORIG), the center-projected
+Z2 links in direct maximal center gauge (CP), and the vortex-removed links (VR, de Forcrand-D'Elia). Removing the vortices
+leaves a nonzero 0++ decay rate at beta 2.35, 2.4 and 2.5, but its ratio to the original glueball mass is not robust: it
+rises by 2.3 sigma with better gauge copies at beta 2.4 (best of 8) and 2.5 (best of 16), and it differs by 3.4 sigma between
+beta 2.35 (0.61(4)) and 2.4 (0.78(3)), the pre-registered series 4 outcome "fraction not robust". What survives: VR string
+tension zero at the largest distances resolved (not at intermediate distances), a volume-independent single-copy VR mass at
+beta 2.4, and a VR 2++ above the free two-gluon box level that is not a scaled copy of the original 2++. Limitations are
+listed first in the paper.
 
 ## Contents
 - `data/series1_summary.csv`: beta 2.3 (8^4, 12^4, 16^4) and 2.4 (12^4, 16^4), T = L. Per (beta, L, ensemble, basis):
@@ -25,11 +27,19 @@ remove it; the pre-registered combined outcome is inconclusive. Limitations are 
 - `data/series1_mcg_functional.csv`: mean MCG functional before and after gauge fixing, series 1.
 - `data/series3_gauge_copies.csv`, `data/series3_statistics.csv`: gauge-copy study (single copy vs best of 16, paired):
   MCG functional, every string-tension estimator ratio, E1 ratio by copy rank, glueball masses.
+- `data/series4_summary.csv`: series 4 (beta 2.4 12^4, beta 2.35 10^4, and the series 1 beta 2.4 configurations as data
+  set D-S1). Per (data set, beta, L, ensemble, channel 0++ / 2++, GEVP level 0 / 1): measurements, effective masses m(1..3)
+  and errors, quoted mass and plateau flag. Ensemble VRn = vortex-removed with the best of 8 gauge copies (data set D-copy).
+  Produced by `code/vr2_spectrum.py analyze`.
+- `data/series4_analyze.log`: the full series 4 analysis output (string-tension ratios, mass ratios, paired gauge-copy
+  differences, and the pre-registered decisions), written by the same run.
 - `data/ratios_and_volume_tests.csv`: headline ratios, volume tests and their pre-registered calls, plus report-only rows
   (literature-unit masses, the m(2) volume ratio at beta 2.4, the beta 2.3 gauge-copy mass shift).
 - `code/vr_glueball.py`: simulation (heat bath + over-relaxation), direct maximal center gauge (numba), CP/VR split,
   glueball operators, Wilson loops, and the series 2 analysis (jackknife, GEVP, plateau rule, volume tests).
 - `code/gauge_copies.py`: series 3 (imports `vr_glueball.py`): random gauge copies, paired measurement, estimators.
+- `code/vr2_spectrum.py`: series 4 (imports `gauge_copies.py`, which imports `vr_glueball.py`): plane-resolved loop
+  operators (0++ = A1, 2++ = E), GEVP levels 0 and 1, optional paired best-of-N gauge copies, beta 2.35 smearing scale.
 - `code/series1_vr_glueball.py`: series 1 (beta 2.3 / 2.4, T = L): simulation (numpy gauge fixing), the series 1 analysis,
   and the post-referee beta 2.4 long-time reanalysis (`long24`, imports the estimators of `gauge_copies.py`).
 
@@ -70,6 +80,16 @@ python3 series1_vr_glueball.py selftest
 python3 series1_vr_glueball.py run 16 2.4 201 $(( $(date +%s) + 6*3600 ))
 python3 series1_vr_glueball.py analyze
 python3 series1_vr_glueball.py long24
+```
+Series 4: seeds 701 (beta 2.4, 12^4, best of 8 copies, `ncopy` = 7), 702 (2.4, 12^4, single copy), 711, 712 (2.35,
+10^4, single copy); four streams to one deadline, 2.5 h. Run on the original measurement files (placed in `code/runs_vr2/`,
+with the series 1 files in `code/runs_series1/`), `vr2_spectrum.py analyze` reproduces `data/series4_summary.csv` exactly
+(all 26 rows).
+```
+python3 vr2_spectrum.py selftest                     # a few seconds
+python3 vr2_spectrum.py run 12 2.4 701 $(( $(date +%s) + 9000 )) 7
+python3 vr2_spectrum.py run 10 2.35 711 $(( $(date +%s) + 9000 )) 0
+python3 vr2_spectrum.py analyze                      # writes runs_vr2/summary.csv, runs_vr2/analyze.log
 ```
 The pre-registration texts were committed to a private git repository before each series' production data existed; they
 are internally time-stamped, not externally registered.
