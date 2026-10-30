@@ -1,6 +1,6 @@
 # The 0++ and 2++ glueball channels on center-vortex-removed SU(2) lattice ensembles: a data note
 
-Author: Turaq Rayn-McLean. Version 1.2: draft, revised after referee review and a fourth data series, not submitted. License: text and data CC BY 4.0 (see
+Author: Turaq Rayn-McLean. Version 1.2, revised after referee review and a fourth data series. Zenodo: https://doi.org/10.5281/zenodo.23823192. License: text and data CC BY 4.0 (see
 LICENSE); code in `code/` MIT (see code/LICENSE).
 
 `paper.md` / `paper.pdf`: a short hep-lat note. It measures the 0++ and 2++ glueball correlators and the static
