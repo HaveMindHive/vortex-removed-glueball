@@ -1,0 +1,6 @@
+series,beta,L,streams,mcg_functional_before,mcg_functional_after,source
+S1,2.3,8,1,0.2500,0.7520,series1_vr_glueball.py analyze (mean over measurements; 'before' is the functional of the configuration as generated)
+S1,2.3,12,3,0.2500,0.7528,series1_vr_glueball.py analyze (mean over measurements; 'before' is the functional of the configuration as generated)
+S1,2.3,16,5,0.2500,0.7530,series1_vr_glueball.py analyze (mean over measurements; 'before' is the functional of the configuration as generated)
+S1,2.4,12,3,0.2500,0.7727,series1_vr_glueball.py analyze (mean over measurements; 'before' is the functional of the configuration as generated)
+S1,2.4,16,4,0.2500,0.7730,series1_vr_glueball.py analyze (mean over measurements; 'before' is the functional of the configuration as generated)

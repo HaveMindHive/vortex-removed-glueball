@@ -34,3 +34,10 @@ S3,2.5,sigma_VR/sigma_ORIG (E1) single copy,16^4,0.205,0.009,K1 pass
 S3,2.5,sigma_VR/sigma_ORIG (E1) best of 16,16^4,0.225,0.010,C0 FAIL (rule V-b)
 S3,2.5,sigma_CP/sigma_ORIG (E1) best of 16,16^4,0.726,0.014,in [0.6 1.4]
 S3,2.5,m_VR best of 16 minus single copy (quoted),16^4,0.109,0.048,report
+S1,2.4,rho VR m(2) both boxes (report only; after referee review),16^4/12^4,0.96,0.09,report
+S1,2.4,m_VR/sqrt(sigma) literature unit a sqrt(sigma)=0.2660(21) [Teper Table 10],16^4,2.52,0.08,report
+S2,2.5,m_VR/sqrt(sigma) literature unit a sqrt(sigma)=0.1881(28) [Teper Table 10],20^4,2.38,0.12,report
+S1,2.4,m_ORIG/sqrt(sigma) literature unit,16^4,3.54,0.18,report
+S2,2.5,m_ORIG/sqrt(sigma) literature unit,20^4,3.73,0.20,report
+S2,2.3,m_VR/sqrt(sigma_ORIG) own unit,16^3x32,2.55,0.33,report
+S3,2.3,m_VR best of 16 minus single copy (quoted),12^3x32,-0.192,0.109,report

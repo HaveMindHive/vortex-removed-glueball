@@ -4,9 +4,9 @@ title: "The scalar glueball on center-vortex-removed SU(2) lattice ensembles: a 
 authors:
   - family-names: "Rayn-McLean"
     given-names: "Turaq"
-version: "1.0"
+version: "1.1"
 date-released: "2026-10-30"
-license: CC-BY-4.0
+license: CC-BY-4.0   # data and text; code/ is MIT (code/LICENSE)
 type: dataset
 keywords:
   - lattice gauge theory
