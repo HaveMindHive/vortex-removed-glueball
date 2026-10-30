@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "The scalar glueball on center-vortex-removed SU(2) lattice ensembles: a data note"
+authors:
+  - family-names: "Rayn-McLean"
+    given-names: "Turaq"
+version: "1.0"
+date-released: "2026-10-30"
+license: CC-BY-4.0
+type: dataset
+keywords:
+  - lattice gauge theory
+  - SU(2)
+  - center vortices
+  - glueball
+  - maximal center gauge
+# repository-code: "https://github.com/<owner>/<repo>"   # placeholder, not yet public
+# doi: "10.5281/zenodo.<id>"                             # placeholder, not yet assigned

@@ -1,0 +1,36 @@
+series,beta,quantity,lattices,value,err,pre_registered_call
+S1,2.3,sigma_VR/sigma_ORIG (E1),8^4,-0.09,0.04,C0 pass
+S1,2.3,sigma_VR/sigma_ORIG (E1),12^4,-0.04,0.01,C0 pass
+S1,2.3,sigma_VR/sigma_ORIG (E1),16^4,-0.02,0.01,C0 pass
+S1,2.4,sigma_VR/sigma_ORIG (E1),12^4,-0.015,0.008,C0 pass
+S1,2.4,sigma_VR/sigma_ORIG (E1),16^4,0.016,0.008,C0 pass
+S2,2.3,sigma_VR/sigma_ORIG (E1),12^3x32,-0.048,0.008,C0 pass
+S2,2.3,sigma_VR/sigma_ORIG (E1),16^3x32,-0.024,0.010,C0 pass
+S2,2.5,sigma_VR/sigma_ORIG (E1),16^4,0.219,0.010,C0 FAIL
+S2,2.5,sigma_VR/sigma_ORIG (E1),20^4,0.205,0.007,C0 FAIL
+S2,2.3,sigma_CP/sigma_ORIG (E1),12^3x32,0.95,0.04,C0 pass
+S2,2.3,sigma_CP/sigma_ORIG (E1),16^3x32,1.17,0.12,C0 pass
+S2,2.5,sigma_CP/sigma_ORIG (E1),16^4,0.985,0.016,C0 pass
+S2,2.5,sigma_CP/sigma_ORIG (E1),20^4,0.938,0.012,C0 pass
+S1,2.3,rho VR m(16^4)/m(12^4) basis A,16^4/12^4,0.733,0.111,GAPLESS
+S1,2.3,rho ORIG,16^4/12^4,1.22,0.18,GAP
+S1,2.3,rho CP,16^4/12^4,0.981,0.037,GAP
+S1,2.4,rho VR m(16^4)/m(12^4) basis A,16^4/12^4,0.984,0.042,GAP
+S1,2.4,rho ORIG,16^4/12^4,1.079,0.062,GAP
+S1,2.4,rho CP,16^4/12^4,1.051,0.055,GAP
+S2,2.3,rho VR m(16^3x32)/m(12^3x32) basis A,16^3x32/12^3x32,0.847,0.105,INCONCLUSIVE
+S2,2.3,rho ORIG,16^3x32/12^3x32,1.089,0.067,GAP
+S2,2.3,rho CP,16^3x32/12^3x32,1.053,0.038,GAP
+S2,2.5,rho VR m(20^4)/m(16^4) basis A,20^4/16^4,0.944,0.057,GAP
+S2,2.5,rho ORIG,20^4/16^4,0.989,0.072,GAP
+S2,2.5,rho CP,20^4/16^4,0.886,0.066,INCONCLUSIVE
+S1,2.4,m_VR/m_ORIG,16^4,0.711,0.036,report
+S1,2.3,m_VR/m_ORIG,16^4,0.66,0.10,report
+S2,2.3,m_VR/m_ORIG,16^3x32,0.673,0.083,report
+S2,2.5,m_VR/m_ORIG,20^4,0.639,0.043,report
+S1,2.4,m_VR/sqrt(sigma_ORIG),16^4,2.40,0.08,report
+S2,2.5,m_VR/sqrt(sigma_ORIG),20^4,2.16,0.10,report (unit 10% above literature)
+S3,2.5,sigma_VR/sigma_ORIG (E1) single copy,16^4,0.205,0.009,K1 pass
+S3,2.5,sigma_VR/sigma_ORIG (E1) best of 16,16^4,0.225,0.010,C0 FAIL (rule V-b)
+S3,2.5,sigma_CP/sigma_ORIG (E1) best of 16,16^4,0.726,0.014,in [0.6 1.4]
+S3,2.5,m_VR best of 16 minus single copy (quoted),16^4,0.109,0.048,report

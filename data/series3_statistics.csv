@@ -1,0 +1,4 @@
+beta,L,T,streams,seeds,n_meas,sweeps_between_meas,tau_int_max,blocks_per_stream,mcg_functional_single_copy,mcg_functional_best_of_16,gain_mean,gain_se,fraction_configs_improved
+2.5,16,16,8,451-458,668,10,1.28,20,0.79115,0.79330,0.00215,0.00005,0.94
+2.5,20,20,2,461-462,54,10,0.67,13,0.79142,0.79298,0.00155,0.00012,0.96
+2.3,12,32,2,411-412,241,10,1.10,20,0.75300,0.75407,0.00107,0.00004,0.92

@@ -1,0 +1,250 @@
+beta,L,T,gauge_fixing,quantity,value,err
+2.3,12,32,single_copy,F_mcg,0.753004,0.000059
+2.3,12,32,best_of_16,F_mcg,0.754069,0.000051
+2.3,12,32,single_copy,VR/ORIG E1,-0.04630,0.02121
+2.3,12,32,best_of_16,VR/ORIG E1,-0.06734,0.01944
+2.3,12,32,single_copy,VR/ORIG E1',-0.04165,0.08172
+2.3,12,32,best_of_16,VR/ORIG E1',-0.08921,0.07930
+2.3,12,32,single_copy,VR/ORIG E2_T5,0.00682,0.04575
+2.3,12,32,best_of_16,VR/ORIG E2_T5,-0.04651,0.07452
+2.3,12,32,single_copy,VR/ORIG E2_T6,nan,0.00000
+2.3,12,32,best_of_16,VR/ORIG E2_T6,nan,0.00000
+2.3,12,32,single_copy,VR/ORIG chi(2,2),0.68389,0.00116
+2.3,12,32,best_of_16,VR/ORIG chi(2,2),0.68225,0.00108
+2.3,12,32,single_copy,VR/ORIG chi(3,3),0.27641,0.00446
+2.3,12,32,best_of_16,VR/ORIG chi(3,3),0.27804,0.00478
+2.3,12,32,single_copy,VR/ORIG chi(4,4),0.09283,0.01971
+2.3,12,32,best_of_16,VR/ORIG chi(4,4),0.08044,0.01552
+2.3,12,32,single_copy,VR/ORIG chi(5,5),0.01150,0.03637
+2.3,12,32,best_of_16,VR/ORIG chi(5,5),0.01771,0.04132
+2.3,12,32,single_copy,VR/ORIG chi(6,6),-0.02984,0.10921
+2.3,12,32,best_of_16,VR/ORIG chi(6,6),-0.04502,0.22959
+2.3,12,32,single_copy,CP/ORIG E1,0.84504,0.11070
+2.3,12,32,best_of_16,CP/ORIG E1,0.74652,0.09908
+2.3,12,32,single_copy,CP/ORIG E1',0.54613,0.24452
+2.3,12,32,best_of_16,CP/ORIG E1',0.48856,0.22185
+2.3,12,32,single_copy,CP/ORIG E2_T5,0.50233,0.76005
+2.3,12,32,best_of_16,CP/ORIG E2_T5,0.43474,0.67200
+2.3,12,32,single_copy,CP/ORIG E2_T6,nan,0.00000
+2.3,12,32,best_of_16,CP/ORIG E2_T6,nan,0.00000
+2.3,12,32,single_copy,CP/ORIG chi(2,2),0.50617,0.00171
+2.3,12,32,best_of_16,CP/ORIG chi(2,2),0.48074,0.00139
+2.3,12,32,single_copy,CP/ORIG chi(3,3),0.67850,0.00540
+2.3,12,32,best_of_16,CP/ORIG chi(3,3),0.62924,0.00469
+2.3,12,32,single_copy,CP/ORIG chi(4,4),0.91601,0.04449
+2.3,12,32,best_of_16,CP/ORIG chi(4,4),0.81948,0.03668
+2.3,12,32,single_copy,CP/ORIG chi(5,5),0.75563,0.15769
+2.3,12,32,best_of_16,CP/ORIG chi(5,5),0.64089,0.13608
+2.3,12,32,single_copy,CP/ORIG chi(6,6),0.50633,2.23846
+2.3,12,32,best_of_16,CP/ORIG chi(6,6),0.45272,2.07579
+2.3,12,32,copy_rank_0,VR/ORIG E1 by functional rank,-0.06734,0.02157
+2.3,12,32,copy_rank_1,VR/ORIG E1 by functional rank,-0.03346,0.01990
+2.3,12,32,copy_rank_2,VR/ORIG E1 by functional rank,-0.00823,0.02319
+2.3,12,32,copy_rank_3,VR/ORIG E1 by functional rank,-0.01564,0.02117
+2.3,12,32,copy_rank_4,VR/ORIG E1 by functional rank,-0.04088,0.01529
+2.3,12,32,copy_rank_5,VR/ORIG E1 by functional rank,-0.06053,0.02273
+2.3,12,32,copy_rank_6,VR/ORIG E1 by functional rank,-0.02483,0.02146
+2.3,12,32,copy_rank_7,VR/ORIG E1 by functional rank,-0.05215,0.01950
+2.3,12,32,copy_rank_8,VR/ORIG E1 by functional rank,-0.05259,0.01841
+2.3,12,32,copy_rank_9,VR/ORIG E1 by functional rank,-0.02556,0.01956
+2.3,12,32,copy_rank_10,VR/ORIG E1 by functional rank,-0.04491,0.02360
+2.3,12,32,copy_rank_11,VR/ORIG E1 by functional rank,-0.01394,0.02031
+2.3,12,32,copy_rank_12,VR/ORIG E1 by functional rank,-0.03813,0.03016
+2.3,12,32,copy_rank_13,VR/ORIG E1 by functional rank,-0.05540,0.02411
+2.3,12,32,copy_rank_14,VR/ORIG E1 by functional rank,-0.05245,0.02041
+2.3,12,32,copy_rank_15,VR/ORIG E1 by functional rank,-0.04136,0.02079
+2.3,12,32,copy_rank_0,CP/ORIG E1 by functional rank,0.74652,0.10885
+2.3,12,32,copy_rank_1,CP/ORIG E1 by functional rank,0.77673,0.10881
+2.3,12,32,copy_rank_2,CP/ORIG E1 by functional rank,0.79124,0.11360
+2.3,12,32,copy_rank_3,CP/ORIG E1 by functional rank,0.79937,0.11392
+2.3,12,32,copy_rank_4,CP/ORIG E1 by functional rank,0.80173,0.11484
+2.3,12,32,copy_rank_5,CP/ORIG E1 by functional rank,0.86181,0.12176
+2.3,12,32,copy_rank_6,CP/ORIG E1 by functional rank,0.84641,0.11978
+2.3,12,32,copy_rank_7,CP/ORIG E1 by functional rank,0.85512,0.12827
+2.3,12,32,copy_rank_8,CP/ORIG E1 by functional rank,0.84042,0.12574
+2.3,12,32,copy_rank_9,CP/ORIG E1 by functional rank,0.84062,0.12638
+2.3,12,32,copy_rank_10,CP/ORIG E1 by functional rank,0.93513,0.15065
+2.3,12,32,copy_rank_11,CP/ORIG E1 by functional rank,0.88709,0.12516
+2.3,12,32,copy_rank_12,CP/ORIG E1 by functional rank,0.86164,0.13002
+2.3,12,32,copy_rank_13,CP/ORIG E1 by functional rank,0.98122,0.13773
+2.3,12,32,copy_rank_14,CP/ORIG E1 by functional rank,0.95038,0.13409
+2.3,12,32,copy_rank_15,CP/ORIG E1 by functional rank,0.97860,0.14965
+2.3,12,32,single_copy,m_ORIG_quoted[upper bound],1.22383,0.13874
+2.3,12,32,single_copy,m_VR_quoted[plateau],1.15233,0.10554
+2.3,12,32,best_of_16,m_ORIG_quoted[upper bound],1.22383,0.13874
+2.3,12,32,best_of_16,m_VR_quoted[plateau],0.96061,0.05979
+2.3,12,32,best_of_16_minus_single_copy,m_VR_quoted_diff,-0.19172,0.10881
+2.5,16,16,single_copy,F_mcg,0.791153,0.000060
+2.5,16,16,best_of_16,F_mcg,0.793301,0.000051
+2.5,16,16,single_copy,VR/ORIG E1,0.20505,0.00940
+2.5,16,16,best_of_16,VR/ORIG E1,0.22516,0.00972
+2.5,16,16,single_copy,VR/ORIG E1',0.22940,0.02446
+2.5,16,16,best_of_16,VR/ORIG E1',0.21531,0.02677
+2.5,16,16,single_copy,VR/ORIG E2_T5,-0.04198,0.03743
+2.5,16,16,best_of_16,VR/ORIG E2_T5,-0.04356,0.03744
+2.5,16,16,single_copy,VR/ORIG E2_T6,-0.04546,0.09483
+2.5,16,16,best_of_16,VR/ORIG E2_T6,-0.15146,0.10899
+2.5,16,16,single_copy,VR/ORIG chi(2,2),0.97167,0.00067
+2.5,16,16,best_of_16,VR/ORIG chi(2,2),0.96142,0.00063
+2.5,16,16,single_copy,VR/ORIG chi(3,3),0.82258,0.00270
+2.5,16,16,best_of_16,VR/ORIG chi(3,3),0.81815,0.00246
+2.5,16,16,single_copy,VR/ORIG chi(4,4),0.60969,0.00835
+2.5,16,16,best_of_16,VR/ORIG chi(4,4),0.61816,0.00809
+2.5,16,16,single_copy,VR/ORIG chi(5,5),0.37451,0.02295
+2.5,16,16,best_of_16,VR/ORIG chi(5,5),0.42001,0.02390
+2.5,16,16,single_copy,VR/ORIG chi(6,6),0.23171,0.07246
+2.5,16,16,best_of_16,VR/ORIG chi(6,6),0.35688,0.06593
+2.5,16,16,single_copy,VR/ORIG chi(7,7),0.18824,0.21750
+2.5,16,16,best_of_16,VR/ORIG chi(7,7),0.10589,0.20003
+2.5,16,16,single_copy,VR/ORIG chi(8,8),0.03731,0.26552
+2.5,16,16,best_of_16,VR/ORIG chi(8,8),0.21022,0.30965
+2.5,16,16,single_copy,CP/ORIG E1,0.98523,0.01853
+2.5,16,16,best_of_16,CP/ORIG E1,0.72591,0.01408
+2.5,16,16,single_copy,CP/ORIG E1',0.93955,0.03665
+2.5,16,16,best_of_16,CP/ORIG E1',0.69015,0.02680
+2.5,16,16,single_copy,CP/ORIG E2_T5,1.08612,0.07014
+2.5,16,16,best_of_16,CP/ORIG E2_T5,0.76512,0.05045
+2.5,16,16,single_copy,CP/ORIG E2_T6,1.69502,0.32563
+2.5,16,16,best_of_16,CP/ORIG E2_T6,1.15848,0.22129
+2.5,16,16,single_copy,CP/ORIG chi(2,2),0.26524,0.00127
+2.5,16,16,best_of_16,CP/ORIG chi(2,2),0.21630,0.00117
+2.5,16,16,single_copy,CP/ORIG chi(3,3),0.44415,0.00271
+2.5,16,16,best_of_16,CP/ORIG chi(3,3),0.34758,0.00242
+2.5,16,16,single_copy,CP/ORIG chi(4,4),0.62709,0.00736
+2.5,16,16,best_of_16,CP/ORIG chi(4,4),0.47409,0.00527
+2.5,16,16,single_copy,CP/ORIG chi(5,5),0.80397,0.02466
+2.5,16,16,best_of_16,CP/ORIG chi(5,5),0.59395,0.01811
+2.5,16,16,single_copy,CP/ORIG chi(6,6),1.01285,0.09392
+2.5,16,16,best_of_16,CP/ORIG chi(6,6),0.72807,0.06698
+2.5,16,16,single_copy,CP/ORIG chi(7,7),1.34651,0.50661
+2.5,16,16,best_of_16,CP/ORIG chi(7,7),0.92924,0.34913
+2.5,16,16,single_copy,CP/ORIG chi(8,8),0.73825,0.56430
+2.5,16,16,best_of_16,CP/ORIG chi(8,8),0.47920,0.36475
+2.5,16,16,copy_rank_0,VR/ORIG E1 by functional rank,0.22516,0.01031
+2.5,16,16,copy_rank_1,VR/ORIG E1 by functional rank,0.25637,0.01096
+2.5,16,16,copy_rank_2,VR/ORIG E1 by functional rank,0.21645,0.01075
+2.5,16,16,copy_rank_3,VR/ORIG E1 by functional rank,0.22634,0.00985
+2.5,16,16,copy_rank_4,VR/ORIG E1 by functional rank,0.20596,0.01044
+2.5,16,16,copy_rank_5,VR/ORIG E1 by functional rank,0.21953,0.01019
+2.5,16,16,copy_rank_6,VR/ORIG E1 by functional rank,0.21699,0.01004
+2.5,16,16,copy_rank_7,VR/ORIG E1 by functional rank,0.20020,0.01070
+2.5,16,16,copy_rank_8,VR/ORIG E1 by functional rank,0.19603,0.01017
+2.5,16,16,copy_rank_9,VR/ORIG E1 by functional rank,0.20135,0.01058
+2.5,16,16,copy_rank_10,VR/ORIG E1 by functional rank,0.21054,0.01131
+2.5,16,16,copy_rank_11,VR/ORIG E1 by functional rank,0.19645,0.01061
+2.5,16,16,copy_rank_12,VR/ORIG E1 by functional rank,0.19816,0.01153
+2.5,16,16,copy_rank_13,VR/ORIG E1 by functional rank,0.21011,0.01080
+2.5,16,16,copy_rank_14,VR/ORIG E1 by functional rank,0.17677,0.01110
+2.5,16,16,copy_rank_15,VR/ORIG E1 by functional rank,0.16968,0.01122
+2.5,16,16,copy_rank_0,CP/ORIG E1 by functional rank,0.72591,0.01489
+2.5,16,16,copy_rank_1,CP/ORIG E1 by functional rank,0.80282,0.01474
+2.5,16,16,copy_rank_2,CP/ORIG E1 by functional rank,0.84681,0.01582
+2.5,16,16,copy_rank_3,CP/ORIG E1 by functional rank,0.88694,0.01586
+2.5,16,16,copy_rank_4,CP/ORIG E1 by functional rank,0.91514,0.01604
+2.5,16,16,copy_rank_5,CP/ORIG E1 by functional rank,0.95767,0.01735
+2.5,16,16,copy_rank_6,CP/ORIG E1 by functional rank,0.99556,0.01762
+2.5,16,16,copy_rank_7,CP/ORIG E1 by functional rank,0.99473,0.01729
+2.5,16,16,copy_rank_8,CP/ORIG E1 by functional rank,1.03846,0.01759
+2.5,16,16,copy_rank_9,CP/ORIG E1 by functional rank,1.05721,0.01877
+2.5,16,16,copy_rank_10,CP/ORIG E1 by functional rank,1.09535,0.01898
+2.5,16,16,copy_rank_11,CP/ORIG E1 by functional rank,1.11806,0.01977
+2.5,16,16,copy_rank_12,CP/ORIG E1 by functional rank,1.16749,0.02083
+2.5,16,16,copy_rank_13,CP/ORIG E1 by functional rank,1.18780,0.02046
+2.5,16,16,copy_rank_14,CP/ORIG E1 by functional rank,1.26650,0.02309
+2.5,16,16,copy_rank_15,CP/ORIG E1 by functional rank,1.32154,0.02371
+2.5,16,16,single_copy,m_ORIG_quoted[plateau],0.68987,0.03380
+2.5,16,16,single_copy,m_VR_quoted[plateau],0.45145,0.02249
+2.5,16,16,best_of_16,m_ORIG_quoted[plateau],0.68987,0.03380
+2.5,16,16,best_of_16,m_VR_quoted[late],0.56075,0.04364
+2.5,16,16,best_of_16_minus_single_copy,m_VR_quoted_diff,0.10930,0.04791
+2.5,20,20,single_copy,F_mcg,0.791424,0.000152
+2.5,20,20,best_of_16,F_mcg,0.792979,0.000121
+2.5,20,20,single_copy,VR/ORIG E1,0.22266,0.01659
+2.5,20,20,best_of_16,VR/ORIG E1,0.25172,0.02320
+2.5,20,20,single_copy,VR/ORIG E1',0.25644,0.03151
+2.5,20,20,best_of_16,VR/ORIG E1',0.28354,0.04028
+2.5,20,20,single_copy,VR/ORIG E2_T5,-0.12503,0.09760
+2.5,20,20,best_of_16,VR/ORIG E2_T5,0.08694,0.09466
+2.5,20,20,single_copy,VR/ORIG E2_T6,-0.35219,0.24409
+2.5,20,20,best_of_16,VR/ORIG E2_T6,0.09537,0.14661
+2.5,20,20,single_copy,VR/ORIG chi(2,2),0.97389,0.00142
+2.5,20,20,best_of_16,VR/ORIG chi(2,2),0.96413,0.00137
+2.5,20,20,single_copy,VR/ORIG chi(3,3),0.83636,0.00645
+2.5,20,20,best_of_16,VR/ORIG chi(3,3),0.82515,0.00492
+2.5,20,20,single_copy,VR/ORIG chi(4,4),0.62022,0.01899
+2.5,20,20,best_of_16,VR/ORIG chi(4,4),0.63625,0.01422
+2.5,20,20,single_copy,VR/ORIG chi(5,5),0.39612,0.05135
+2.5,20,20,best_of_16,VR/ORIG chi(5,5),0.39448,0.05046
+2.5,20,20,single_copy,VR/ORIG chi(6,6),0.12986,0.14769
+2.5,20,20,best_of_16,VR/ORIG chi(6,6),0.19547,0.11849
+2.5,20,20,single_copy,VR/ORIG chi(7,7),-0.02867,0.37844
+2.5,20,20,best_of_16,VR/ORIG chi(7,7),0.06882,0.36426
+2.5,20,20,single_copy,VR/ORIG chi(8,8),-0.02575,0.21576
+2.5,20,20,best_of_16,VR/ORIG chi(8,8),0.04749,0.23790
+2.5,20,20,single_copy,VR/ORIG chi(9,9),-0.12821,1.01680
+2.5,20,20,best_of_16,VR/ORIG chi(9,9),0.35555,1.86018
+2.5,20,20,single_copy,VR/ORIG chi(10,10),0.10890,23.31266
+2.5,20,20,best_of_16,VR/ORIG chi(10,10),0.03714,12.31100
+2.5,20,20,single_copy,CP/ORIG E1,0.97048,0.02230
+2.5,20,20,best_of_16,CP/ORIG E1,0.75385,0.02192
+2.5,20,20,single_copy,CP/ORIG E1',0.91770,0.03910
+2.5,20,20,best_of_16,CP/ORIG E1',0.72091,0.04377
+2.5,20,20,single_copy,CP/ORIG E2_T5,1.38724,0.23631
+2.5,20,20,best_of_16,CP/ORIG E2_T5,1.04498,0.17927
+2.5,20,20,single_copy,CP/ORIG E2_T6,1.29138,0.54232
+2.5,20,20,best_of_16,CP/ORIG E2_T6,0.92715,0.36929
+2.5,20,20,single_copy,CP/ORIG chi(2,2),0.26288,0.00311
+2.5,20,20,best_of_16,CP/ORIG chi(2,2),0.22526,0.00258
+2.5,20,20,single_copy,CP/ORIG chi(3,3),0.45383,0.00641
+2.5,20,20,best_of_16,CP/ORIG chi(3,3),0.37328,0.00505
+2.5,20,20,single_copy,CP/ORIG chi(4,4),0.61934,0.01874
+2.5,20,20,best_of_16,CP/ORIG chi(4,4),0.49046,0.01313
+2.5,20,20,single_copy,CP/ORIG chi(5,5),0.82798,0.05113
+2.5,20,20,best_of_16,CP/ORIG chi(5,5),0.63055,0.04313
+2.5,20,20,single_copy,CP/ORIG chi(6,6),1.01330,0.22028
+2.5,20,20,best_of_16,CP/ORIG chi(6,6),0.76923,0.16043
+2.5,20,20,single_copy,CP/ORIG chi(7,7),0.97393,0.67412
+2.5,20,20,best_of_16,CP/ORIG chi(7,7),0.68644,0.46591
+2.5,20,20,single_copy,CP/ORIG chi(8,8),0.37173,0.26251
+2.5,20,20,best_of_16,CP/ORIG chi(8,8),0.27339,0.20178
+2.5,20,20,single_copy,CP/ORIG chi(9,9),0.35280,1.54811
+2.5,20,20,best_of_16,CP/ORIG chi(9,9),0.29959,1.29418
+2.5,20,20,single_copy,CP/ORIG chi(10,10),-0.02538,5.46073
+2.5,20,20,best_of_16,CP/ORIG chi(10,10),-0.02255,5.20763
+2.5,20,20,copy_rank_0,VR/ORIG E1 by functional rank,0.25172,0.02102
+2.5,20,20,copy_rank_1,VR/ORIG E1 by functional rank,0.21417,0.02037
+2.5,20,20,copy_rank_2,VR/ORIG E1 by functional rank,0.20838,0.02238
+2.5,20,20,copy_rank_3,VR/ORIG E1 by functional rank,0.20719,0.02567
+2.5,20,20,copy_rank_4,VR/ORIG E1 by functional rank,0.24212,0.01898
+2.5,20,20,copy_rank_5,VR/ORIG E1 by functional rank,0.19912,0.02334
+2.5,20,20,copy_rank_6,VR/ORIG E1 by functional rank,0.22920,0.02346
+2.5,20,20,copy_rank_7,VR/ORIG E1 by functional rank,0.22357,0.02260
+2.5,20,20,copy_rank_8,VR/ORIG E1 by functional rank,0.21481,0.02296
+2.5,20,20,copy_rank_9,VR/ORIG E1 by functional rank,0.23488,0.01997
+2.5,20,20,copy_rank_10,VR/ORIG E1 by functional rank,0.18855,0.02061
+2.5,20,20,copy_rank_11,VR/ORIG E1 by functional rank,0.20179,0.02048
+2.5,20,20,copy_rank_12,VR/ORIG E1 by functional rank,0.21632,0.02563
+2.5,20,20,copy_rank_13,VR/ORIG E1 by functional rank,0.19026,0.02414
+2.5,20,20,copy_rank_14,VR/ORIG E1 by functional rank,0.18615,0.01841
+2.5,20,20,copy_rank_15,VR/ORIG E1 by functional rank,0.19160,0.01939
+2.5,20,20,copy_rank_0,CP/ORIG E1 by functional rank,0.75385,0.02016
+2.5,20,20,copy_rank_1,CP/ORIG E1 by functional rank,0.80999,0.02257
+2.5,20,20,copy_rank_2,CP/ORIG E1 by functional rank,0.83573,0.02576
+2.5,20,20,copy_rank_3,CP/ORIG E1 by functional rank,0.85212,0.02799
+2.5,20,20,copy_rank_4,CP/ORIG E1 by functional rank,0.88433,0.02377
+2.5,20,20,copy_rank_5,CP/ORIG E1 by functional rank,0.90579,0.02783
+2.5,20,20,copy_rank_6,CP/ORIG E1 by functional rank,0.97164,0.02564
+2.5,20,20,copy_rank_7,CP/ORIG E1 by functional rank,0.93861,0.02832
+2.5,20,20,copy_rank_8,CP/ORIG E1 by functional rank,0.94546,0.02615
+2.5,20,20,copy_rank_9,CP/ORIG E1 by functional rank,0.96653,0.03141
+2.5,20,20,copy_rank_10,CP/ORIG E1 by functional rank,1.00898,0.02715
+2.5,20,20,copy_rank_11,CP/ORIG E1 by functional rank,0.98356,0.02698
+2.5,20,20,copy_rank_12,CP/ORIG E1 by functional rank,1.05226,0.02818
+2.5,20,20,copy_rank_13,CP/ORIG E1 by functional rank,1.06112,0.03592
+2.5,20,20,copy_rank_14,CP/ORIG E1 by functional rank,1.09731,0.03577
+2.5,20,20,copy_rank_15,CP/ORIG E1 by functional rank,1.18826,0.03690
+2.5,20,20,single_copy,m_ORIG_quoted[upper bound],0.70049,0.11499
+2.5,20,20,single_copy,m_VR_quoted[late],0.30011,0.07358
+2.5,20,20,best_of_16,m_ORIG_quoted[upper bound],0.70049,0.11499
+2.5,20,20,best_of_16,m_VR_quoted[plateau],0.49077,0.07070
+2.5,20,20,best_of_16_minus_single_copy,m_VR_quoted_diff,0.19066,0.09641

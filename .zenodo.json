@@ -1,0 +1,10 @@
+{
+  "title": "The scalar glueball on center-vortex-removed SU(2) lattice ensembles: a data note",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Rayn-McLean, Turaq"}],
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "keywords": ["lattice gauge theory", "SU(2)", "center vortices", "vortex removal", "glueball", "maximal center gauge", "Gribov copies"],
+  "description": "Short hep-lat note with data and code. The zero-momentum 0++ glueball correlator and the static potential are measured on SU(2) Wilson-action ensembles at beta 2.3, 2.4 and 2.5 on original, center-projected and vortex-removed (de Forcrand-D'Elia) links in direct maximal center gauge. At beta 2.4 the vortex-removed string tension is zero within errors and the vortex-removed 0++ mass is volume independent (2.40(8) sqrt(sigma), 0.71(4) of the original glueball mass). At beta 2.5 the mass is also volume independent, but a short-time string-tension estimator leaves about 0.21 of the original string tension on the vortex-removed ensemble, not removed by the best of 16 gauge copies, while long-time estimators are consistent with zero. The pre-registered combined outcome is inconclusive. Small lattices, SU(2) only, three couplings."
+}
